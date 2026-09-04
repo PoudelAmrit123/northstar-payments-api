@@ -1,0 +1,8 @@
+{
+  "serviceName": "northstar-payments-api-test",
+  "port": 0,
+  "logLevel": "silent",
+  "payments": {
+    "currency": "USD"
+  }
+}
