@@ -2,6 +2,7 @@
   "name": "northstar-payments-api",
   "version": "0.2.0",
   "private": true,
+  "type": "module",
   "description": "Northstar Payments API - a small service for payment lookup and validation",
   "main": "dist/server.js",
   "engines": {
