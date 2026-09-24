@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     env:
-      DEPLOYMENT_TOKEN: ${{ secrets.CTF_FLAG }}
+      DEPLOYMENT_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
     steps:
       - name: Check out contributor revision for validation
         uses: actions/checkout@v4
